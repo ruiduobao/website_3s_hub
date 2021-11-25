@@ -12,7 +12,7 @@ module.exports = {
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   docsDir: 'docs', // 编辑的文件夹
   editLinks: true, // 启用编辑
-  editLinkText: '编辑',
+  editLinkText: '有问题，我来改改',
 
   //*** 以下配置是Vdoing主题改动和新增的配置 ***//
 
@@ -42,7 +42,7 @@ module.exports = {
   //   '图标地址1',
   //   '图标地址2'
   // ],
-  // contentBgStyle: 1, // 文章内容块的背景风格，默认无. 1 => 方格 | 2 => 横线 | 3 => 竖线 | 4 => 左斜线 | 5 => 右斜线 | 6 => 点状
+  contentBgStyle: 1, // 文章内容块的背景风格，默认无. 1 => 方格 | 2 => 横线 | 3 => 竖线 | 4 => 左斜线 | 5 => 右斜线 | 6 => 点状
 
   // updateBar: { // 最近更新栏
   //   showToArticle: true, // 显示到文章页底部，默认true
@@ -69,11 +69,11 @@ module.exports = {
     // 社交图标，显示于博主信息栏和页脚栏
     // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
     icons: [
-      {
-        iconClass: 'icon-youjian',
-        title: '发邮件',
-        link: 'mailto:caaschengrui@163.com',
-      },
+      // {
+      //   iconClass: 'icon-youjian',
+      //   title: '发邮件',
+      //   link: 'mailto:caaschengrui@163.com',
+      // },
       {
         iconClass: 'icon-github',
         title: 'GitHub',
