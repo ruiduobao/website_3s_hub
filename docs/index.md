@@ -19,7 +19,7 @@ features: # 可选的
     imgUrl: /img/rs.png
     link: /data-rs/
   - title: 行业软件资源
-    details: 地信、遥感类软介绍、安装教程等
+    details: 地信、遥感类软件介绍、安装教程等
     imgUrl: /img/softs.png
     link: /softs/
 
