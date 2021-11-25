@@ -7,8 +7,8 @@ module.exports = {
   // theme: 'vdoing', // 使用npm包主题
   theme: require.resolve('../../theme-vdoing'), // 使用本地主题
 
-  title: "3S-Hub",
-  description: 'GIS/RS/GPS 数据与经验资源导航',
+  title: "地信遥感数据汇",
+  description: 'GIS/RS 数据与经验资源导航',
   themeConfig: {
     sidebar: { mode: 'structuring', collapsable: true} //  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义
   },

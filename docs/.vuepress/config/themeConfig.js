@@ -72,18 +72,18 @@ module.exports = {
       {
         iconClass: 'icon-youjian',
         title: '发邮件',
-        link: 'mailto:xxxx',
+        link: 'mailto:caaschengrui@163.com',
       },
       {
         iconClass: 'icon-github',
         title: 'GitHub',
         link: 'https://github.com/ruiduobao/ruiduobao.com',
       },
-      {
-        iconClass: 'icon-erji',
-        title: '听音乐',
-        link: '',
-      },
+      // {
+      //   iconClass: 'icon-erji',
+      //   title: '听音乐',
+      //   link: '',
+      // },
     ],
   },
   footer: {
