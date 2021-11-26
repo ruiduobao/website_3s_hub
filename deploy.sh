@@ -14,17 +14,17 @@ echo '3s.xiewei.link' > CNAME
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:Gleaner2021/website_3s_hub.git
+  githubUrl=git@github.com:ruiduobao/website_3s_hub.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://Gleaner2021:${GITHUB_TOKEN}@github.com/Gleaner2021/website_3s_hub.git
+  githubUrl=https://ruiduobao:${GITHUB_TOKEN}@github.com:ruiduobao/website_3s_hub.git
   git config --global user.name "Gleaner2021"
   git config --global user.email "wxie18@fudan.edu.cn"
 fi
 git init
 git add -A
 git commit -m "${msg}"
-git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
+git push -f $githubUrl master:main # 推送到github gh-pages分支
 
 # deploy to coding pages
 # echo 'www.xugaoyi.com\nxugaoyi.com' > CNAME  # 自定义域名

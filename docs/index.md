@@ -1,11 +1,11 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: 地信遥感资源教程网
+heroText: 地信遥感数据汇
 tagline: 遥感/地信/数据源合集
 actionText: 开始寻找资源 →
 actionLink: /archives/
-heroImage: /javascript-illustration.png
+# heroImage: /javascript-illustration.png
 bannerBg:  none
 # bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 title: 探索地信遥感资源教程
